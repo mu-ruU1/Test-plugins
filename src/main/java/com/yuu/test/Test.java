@@ -1,6 +1,7 @@
 package com.yuu.test;
 
 import com.yuu.test.command.countdown;
+import com.yuu.test.command.countup;
 import com.yuu.test.command.message;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -20,6 +21,7 @@ public final class Test extends JavaPlugin {
 
         getCommand("message").setExecutor(new message());
         getCommand("countdown").setExecutor(new countdown());
+        getCommand("countup").setExecutor(new countup());
 
         super.onEnable();
     }

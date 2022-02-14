@@ -12,3 +12,7 @@ commands:
     description: カウントダウンのコマンド
     aliases:
       - cnd
+  countup:
+    description: カウントアップのコマンド
+    aliases:
+      - cnu
