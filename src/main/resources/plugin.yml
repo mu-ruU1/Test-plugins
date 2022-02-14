@@ -8,3 +8,7 @@ commands:
     description: メッセージを送信するコマンド
     aliases:
       - msg
+  countdown:
+    description: カウントダウンのコマンド
+    aliases:
+      - cnd
