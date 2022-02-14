@@ -2,3 +2,9 @@ name: Test
 version: '${project.version}'
 main: com.yuu.test.Test
 api-version: 1.18
+
+commands:
+  message:
+    description: メッセージを送信するコマンド
+    aliases:
+      - msg
