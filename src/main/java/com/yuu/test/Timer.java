@@ -14,6 +14,7 @@ public class Timer {
                 Bukkit.broadcastMessage("現在" + count + "秒");
                 if (count == 0){
                     Bukkit.broadcastMessage("カウントダウンが終了しました");
+                    count = 11;
                     this.cancel();
                 }
 
