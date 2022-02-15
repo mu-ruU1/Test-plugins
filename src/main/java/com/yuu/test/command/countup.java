@@ -12,9 +12,9 @@ public class countup implements CommandExecutor {
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
 
         //権限設定
-        if (sender.hasPermission("TestPlugin.command.countup") || sender.isOp()){
+        if (sender.hasPermission("TestPlugin.command.countup") || sender.isOp()) {
             Timer.countup();
-        }else{
+        } else {
             sender.sendMessage(Test.noPermittion);
         }
 

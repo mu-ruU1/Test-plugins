@@ -11,9 +11,9 @@ public class countdown implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
 
-        if (sender.hasPermission("TestPlugin.command.countdown") || sender.isOp()){
+        if (sender.hasPermission("TestPlugin.command.countdown") || sender.isOp()) {
             Timer.countdown();
-        }else {
+        } else {
             sender.sendMessage(Test.noPermittion);
         }
 

@@ -10,13 +10,13 @@ public class message implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
 
-        if (args[0].equalsIgnoreCase("1")){
+        if (args[0].equalsIgnoreCase("1")) {
             sender.sendMessage("サブコマンド1");
-        }else if (args[0].equalsIgnoreCase("2")){
+        } else if (args[0].equalsIgnoreCase("2")) {
             sender.sendMessage("サブコマンド2");
-        }else if (args[0].equalsIgnoreCase("3")){
+        } else if (args[0].equalsIgnoreCase("3")) {
             sender.sendMessage("サブコマンド3");
-        }else{
+        } else {
             sender.sendMessage("サブコマンドは1,2,3しかありません");
         }
 

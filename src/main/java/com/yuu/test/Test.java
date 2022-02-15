@@ -31,7 +31,8 @@ public final class Test extends JavaPlugin {
         // Plugin shutdown logic
         super.onDisable();
     }
-    public static JavaPlugin getPlugin(){
+
+    public static JavaPlugin getPlugin() {
         return plugin;
     }
 }
